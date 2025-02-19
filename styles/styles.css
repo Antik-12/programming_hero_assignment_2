@@ -9,16 +9,22 @@
   font-style: normal;
 }
 
-/* shaed styles */
+
 
 .display-flex{
   display: flex;
 }
 
+.shared-orange{
+  color: rgba(254, 163, 1, 1);
+}
 
-/* header styles */
+.shared-blue{
+ color: rgba(1, 172, 253, 1);
+}
 
-/* navbar related styles */
+
+
 
 .navbar{
   justify-content: space-between;
@@ -68,3 +74,50 @@
   margin: 0 auto;
 }
 
+ 
+  .banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    max-width: 1440px; 
+    margin: 0 auto; 
+    padding: 50px 10%;
+    gap: 20px; 
+  }
+
+  .banner {
+    flex: 1; 
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .banner-description {
+    font-size: 1.2rem;
+    color: gray;
+  }
+  
+  .banner-btn {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .banner-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .banner-img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
