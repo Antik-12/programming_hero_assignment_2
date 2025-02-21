@@ -212,6 +212,7 @@
 }
 
 .stories_container{
+  
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 200px;
@@ -229,6 +230,7 @@
 }
 
 .new-fact-story{
+  
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -238,6 +240,7 @@
 }
 
 .fact_story {
+ 
  
   border: 1px solid gray;
   border-radius: 10px; /* Apply rounded corners */
@@ -254,7 +257,7 @@
 
 
 #story-btn{
-position: absolute;
+ position: absolute;
  top: 50%;
  left: 50%;
  transform: translate(-400%, 9300%);
@@ -266,6 +269,95 @@ position: absolute;
  
  
 }
+
+
+.story-btn-2{
+
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(30%, 13820%);
+  -ms-transform: translate(-50%, -50%); 
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(149, 178, 38, 1);
+  border: none;
+  
+
+
+
+}
+
+.story-btn-3{
+
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(270%, 13840%);
+  -ms-transform: translate(-50%, -50%); 
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(93, 88, 240, 1);
+  border: none;
+  
+
+
+
+}
+
+.story-btn-4{
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(30%, 15550%);
+  -ms-transform: translate(-50%, -50%); 
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(149, 178, 38, 1);
+  border: none;
+
+}
+
+.story-btn-5{
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(380%, 15550%);
+  -ms-transform: translate(-50%, -50%); 
+  border-radius: 10px;
+  color: white;
+  background-color:rgba(149, 178, 38, 1);
+  border: none;
+
+}
+
+.viewall {
+  width: 30%; /* Adjust width dynamically */
+  max-width: 120px; /* Set max width to avoid oversized buttons */
+  min-width: 80px; /* Prevent button from getting too small */
+  height: 40px;
+  color: #FFFFFF;
+  background-color: black;
+  border-radius: 10px;
+  margin: 20px auto; /* Centering the button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px; /* Ensure readability */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.viewall:hover {
+  background-color: #333;
+}
+.liner-grad-4{
+  background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(254, 163, 1, 0.04));
+}
+
+
+
 
 
 
@@ -360,6 +452,26 @@ position: absolute;
   margin-left: 20px;
   
 }
+
+.story-btn-2{
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(-150%, 21300%);
+  -ms-transform: translate(-50%, -50%); 
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(149, 178, 38, 1);
+  border: none;
+
+}
+
+.viewall {
+  width: 50%;
+  font-size: 14px;
+}
+
+
 
 
 }
