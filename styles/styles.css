@@ -127,8 +127,7 @@
   }
 
   main{
-    /* max-width: 1440px;
-    margin: 0 auto; */
+   
     background-image: url(/images/bg.png);
   }
 
@@ -137,7 +136,7 @@
     margin: 0 auto;
   }
 
-  /* curriculum related work */
+  
 
   .stories_container{
     max-width: 1440px;
@@ -253,7 +252,7 @@
  
  
   border: 1px solid gray;
-  border-radius: 10px; /* Apply rounded corners */
+  border-radius: 10px; 
    
 }
 
@@ -342,25 +341,25 @@
 }
 
 .viewall {
-  width: 30%; /* Adjust width dynamically */
-  max-width: 120px; /* Set max width to avoid oversized buttons */
-  min-width: 80px; /* Prevent button from getting too small */
+  width: 30%; 
+  max-width: 120px; 
+  min-width: 80px; 
   height: 40px;
   color: #FFFFFF;
   background-color: black;
   border-radius: 10px;
-  margin: 20px auto; /* Centering the button */
+  margin: 20px auto; 
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px; /* Ensure readability */
+  font-size: 16px; 
   cursor: pointer;
   transition: all 0.3s ease;
   margin-top: 40px;
  
 }
 
-/* Hover effect */
+
 .viewall:hover {
   background-color: rgba(1, 172, 253, 1);
 }
