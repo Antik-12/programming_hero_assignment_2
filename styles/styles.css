@@ -346,6 +346,8 @@
   font-size: 16px; /* Ensure readability */
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-top: 40px;
+ 
 }
 
 /* Hover effect */
@@ -469,6 +471,47 @@
 .viewall {
   width: 50%;
   font-size: 14px;
+}
+
+.story-btn-3{
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(20%, 21320%);
+  -ms-transform: translate(-50%, -50%); 
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(149, 178, 38, 1);
+  border: none;
+}
+
+
+.story-btn-4{
+
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(-150%, 22800%);
+  -ms-transform: translate(-50%, -50%); 
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(149, 178, 38, 1);
+  border: none;
+
+
+}
+
+.story-btn-5{
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(25%, 22800%);
+  -ms-transform: translate(-50%, -50%); 
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(149, 178, 38, 1);
+  border: none;
+
 }
 
 
