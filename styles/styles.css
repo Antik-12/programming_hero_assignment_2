@@ -127,12 +127,22 @@
   }
 
   main{
-    max-width: 1440px;
-    margin: 0 auto;
+    /* max-width: 1440px;
+    margin: 0 auto; */
     background-image: url(/images/bg.png);
   }
 
+  .curriculum-container{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
   /* curriculum related work */
+
+  .stories_container{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
  
  
   .liner-grad-1{
@@ -352,11 +362,75 @@
 
 /* Hover effect */
 .viewall:hover {
-  background-color: #333;
+  background-color: rgba(1, 172, 253, 1);
 }
 .liner-grad-4{
   background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(254, 163, 1, 0.04));
 }
+
+footer {
+  background: rgba(1, 172, 253, 1);
+  color: white;
+  padding: 30px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-class {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+  margin: 10px;
+}
+
+.footer-class img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-class h3,
+.footer-class h4 {
+  margin-top: 10px;
+}
+
+.footer-class ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-class ul li {
+  margin: 5px 0;
+}
+
+.footer-class ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+
+
 
 
 
@@ -512,6 +586,11 @@
   background-color: rgba(149, 178, 38, 1);
   border: none;
 
+}
+
+.container {
+  flex-direction: column;
+  text-align: center;
 }
 
 
